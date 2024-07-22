@@ -76,10 +76,9 @@ export const Experience = () => {
                     <h5>April 2020 - April 2021</h5>
                     <h4>Team Member</h4>
                     <h5>June 2019 - January 2021</h5>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p>○ Built and programmed robots using C++ to earn points in both autonomous and remote-controlled gameplay.</p>
+                    <p>○ Recruited engineers for the club.</p>
+                    <p>○ Competed in competitions and formed alliances with other teams.</p>
                     <br></br>
 
                 </div>
