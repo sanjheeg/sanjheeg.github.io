@@ -17,32 +17,32 @@ export const Certifications = () => {
     const cCerts = [
         {
             title: "C Programming: Getting Started", 
-            description: "Issued by edX in", 
+            description: "Issued by edX in 2019", 
             imgUrl: c1
         },
         {
             title: "C Programming: Language Foundations", 
-            description: "Issued by edX in",
+            description: "Issued by edX in 2019",
             imgUrl: c2
         }, 
         {
             title: "C Programming: Advanced Data Types", 
-            description: "Issued by edX in",
+            description: "Issued by edX in 2020",
             imgUrl: c3
         }, 
         {
             title: "C Programming: Modular Prorgramming and Memory Management", 
-            description: "Issued by edX in",
+            description: "Issued by edX in 2020",
             imgUrl: c4
         },
         {
             title: "C Programming:Pointers and Memory Management", 
-            description: "Issued by edX in",
+            description: "Issued by edX in 2020",
             imgUrl: c5
         },
         {
             title: "Linux Basics: The Command Line Interface", 
-            description: "Issued by edX in",
+            description: "Issued by edX in 2021",
             imgUrl: c6
         }
     ];
@@ -50,12 +50,12 @@ export const Certifications = () => {
     const cadCerts = [
         {
             title: "OnShape: CAD", 
-            description: "Issued by OnShape in ", 
+            description: "Issued by OnShape in 2020", 
             imgUrl: cad2
         },
         {
             title: "OnShape: Data Management", 
-            description: "Issued by OnShape in", 
+            description: "Issued by OnShape in 2020", 
             imgUrl: cad1
         }
     ];
@@ -63,17 +63,17 @@ export const Certifications = () => {
     const graphCerts = [
         {
             title: "Neo4j Fundamentals", 
-            description: "Issued by Neo4j in May 2024", 
+            description: "Issued by Neo4j in 2024", 
             imgUrl: graph1
         },
         {
             title: "Cypher Fundamentals", 
-            description: "Issued by Neo4j in May 2024", 
+            description: "Issued by Neo4j in 2024", 
             imgUrl: graph2
         },
         {
             title: "Graph Data Modeling Fundamentals", 
-            description: "Issued by Neo4j in June 2024", 
+            description: "Issued by Neo4j in 2024", 
             imgUrl: graph3
         }
     ];
