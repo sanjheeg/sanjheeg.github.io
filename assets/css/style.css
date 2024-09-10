@@ -18,6 +18,7 @@
        url('../fonts/fontello.svg?37927580#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
+  color: white;
 }
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
@@ -36,6 +37,7 @@
   margin-left: .2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
  
 .icon-twitter:before { content: '\f099'; } /* '' */
