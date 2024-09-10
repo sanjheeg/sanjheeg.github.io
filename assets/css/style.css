@@ -55,6 +55,7 @@ a {
     -webkit-transition: color 0.25s ease-in-out;
     -o-transition: color 0.25s ease-in-out;
     -ms-transition: color 0.25s ease-in-out;
+    color: white;
 }
 
 a:focus,
@@ -65,6 +66,7 @@ a:hover {
 
 h4 {
     font-size: 30px;
+    color: white;
 }
 
 /* Buttons */ 
@@ -84,24 +86,31 @@ h4 {
 }
 
 .btn-fill {
-    color: #fff;
-    background-color: #212121;
+    color: #212121;
+    background-color: white;
 }
 
 .btn-border {
     background-color: transparent;
-    color: #212121;
-    border: 1px solid #212121; 
+    color: white;
+    border: 1px solid white; 
+    
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
-    color: #fff;
+    color: #3b6191;
 }
 
 .btn:hover,
 .btn:focus {
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-border:hover,
+.btn-border:focus {
+    color: white;
+    background-color: #3b6191;
 }
 
 /* Input fields */
@@ -141,7 +150,7 @@ html, body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #212121;
+    color: white;
 }
 
 .img-res {
@@ -159,7 +168,7 @@ html, body {
 
 /* Background-color */
 .gray-bg {
-    background-color: #e1e1e1;
+    background-color: black;
 }
 
 /* HEADER
@@ -174,13 +183,14 @@ html, body {
 
 .site-logo img {
     padding-bottom: 2px;
+    width: 15%;
 }
 
 /* Navigation */
 .navbar-nav > li > a {
     padding: 5px 0;
     font-weight: 600;
-    color: white;
+    color: #3b6191;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     transition: border-color 0.25s ease-in-out;
@@ -203,7 +213,8 @@ html, body {
 .nav > li > a:hover,
 .nav > li.active > a {
     background-color: transparent;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #492946;
+    color: #492946;
 }
 
 .nav > li > a:focus {
@@ -237,10 +248,24 @@ html, body {
 }
 
 .hero .col-md-6:last-child {
+    animation: updown 3s linear infinite;
+    height: 600px;
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
+@keyframes updown {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
 
 .hero h1 {
     font-size: 46px;
@@ -263,9 +288,10 @@ html, body {
 /* SITEMAIN
 ================================================== */
 .site-main {
+    background: url(../img/site-main-bg.png); 
     position: relative;
     margin-bottom: 100px;
-    background-color: #fff;
+    background-color: black;
     z-index: 1;
 }
 /* site-section */
@@ -308,12 +334,12 @@ html, body {
     height: 15px;
     margin-bottom: 0;
     border-radius: 0;
-    background-color: black;
+    background-color: white;
     box-shadow: none;
 }
 
 .progress-bar {
-    background-color: white;  
+    background-color:#3b6191;  
 }
 
 /* Section: Services */
@@ -354,11 +380,12 @@ html, body {
 .service h4 {
     margin: 25px 0;
     font-size: 24px;
+    color: white;
     font-weight: 700;
 }
 
 .service p {
-    color: #000;
+    color: white;
     margin-bottom: 0;
 }
 
