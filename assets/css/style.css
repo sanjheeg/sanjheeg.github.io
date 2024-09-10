@@ -94,7 +94,7 @@ h4 {
 
 .btn-fill:hover,
 .btn-fill:focus {
-    color: #a53860;
+    color: #fff;
 }
 
 .btn:hover,
@@ -211,7 +211,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/banner.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     min-height: 700px;
