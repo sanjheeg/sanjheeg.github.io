@@ -510,6 +510,11 @@ html, body {
 
 .modal-body h4 {
     font-weight: 700;
+    color: black;
+}
+
+.modal-body p {
+    color: black;
 }
 
 .modal-footer {
@@ -555,6 +560,24 @@ html, body {
 .section-form .btn {
     margin-top: 40px;
 }
+
+
+/* Section: Portfolio */
+.section-portfolio-exp {
+    padding-bottom: 120px;
+    background: url(../img/site-main-bg.png); 
+}
+
+.section-portfolio-exp .col-md-4:nth-last-child(-n+3) .portfolio-item {
+    margin-bottom: 0;
+}
+
+
+.section-portfolio-exp .btn {
+    margin-top: 10px;
+}
+
+
 
 /* FOOTER
 ================================================== */
