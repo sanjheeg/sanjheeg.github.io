@@ -1,13 +1,3 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
- * */
-
-/* FONT
-================================================== */
 @font-face {
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?37927580');
@@ -47,8 +37,6 @@
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
 
-/* CUSTOM RESETS
-================================================== */
 a {
     transition: color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out;
@@ -69,7 +57,7 @@ h4 {
     color: white;
 }
 
-/* Buttons */ 
+/* buttons */ 
 .btn {
     min-width: 145px;
     line-height: 50px;
@@ -113,7 +101,7 @@ h4 {
     background-color: #3b6191;
 }
 
-/* Input fields */
+/* input fields */
 .form-control {
     padding-left: 10px;
     border: 0;
@@ -141,8 +129,6 @@ textarea {
     font-size: 16px;
 }
 
-/* LAYOUT
-================================================== */
 html, body {
     width: 100%;
     height: 100%;
@@ -166,13 +152,11 @@ html, body {
     display: none;
 }
 
-/* Background-color */
 .gray-bg {
     background-color: black;
 }
 
-/* HEADER
-================================================== */
+/* header */
 .site-header {
     position: fixed;
     top: 0;
@@ -186,7 +170,7 @@ html, body {
     width: 15%;
 }
 
-/* Navigation */
+/* navigation */
 .navbar-nav > li > a {
     padding: 5px 0;
     font-weight: 600;
@@ -224,8 +208,7 @@ html, body {
     background-color: transparent;
 }
 
-/* HERO
-================================================== */
+/* landing page */
 .hero { 
     background: url(../img/hero.jpg) no-repeat center / cover; 
     height: 100%;
@@ -289,8 +272,7 @@ html, body {
     height: 500px;
 }
 
-/* SITEMAIN
-================================================== */
+/* main site */
 .site-main {
     background: url(../img/site-main-bg.png); 
     position: relative;
@@ -298,7 +280,7 @@ html, body {
     background-color: black;
     z-index: 1;
 }
-/* site-section */
+
 .site-section {
    padding-top: 70px;
 }
@@ -319,7 +301,7 @@ html, body {
     margin-bottom: 35px;
 }
 
-/* Section: Skills */
+/* about */
 .section-skills {
     padding-bottom: 120px;
 }
@@ -334,8 +316,7 @@ html, body {
     margin: 0 0 15px;
 }
 
-
-/* Section: Services */
+/* skills */
 .section-services {
     position: relative;
     padding-top: 220px;
@@ -403,7 +384,7 @@ html, body {
 }
 
 
-/* Section: Portfolio */
+/* portfolio */
 .section-portfolio {
     padding-bottom: 120px;
 }
@@ -468,8 +449,6 @@ html, body {
     color: #fff;
 }
 
-
-
 .portfolio-item-info a {
     padding: 6px 7px 4px;
     font-size: 12px;
@@ -492,7 +471,7 @@ html, body {
     margin-top: 10px;
 }
 
-/* Experience and Project Cards */
+/* experience and project cards */
 .modal {
     z-index: 9999;
 }
@@ -535,7 +514,6 @@ html, body {
     color: black;
 }
 
-
 .modal-body p {
     color: black;
 }
@@ -544,7 +522,7 @@ html, body {
     text-align: center;
 }
 
-/* Section: Counters */
+/* timer image */
 .section-counters {
     background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
     width: 100%;
@@ -575,8 +553,8 @@ html, body {
     line-height: 0.8;
 }
 
+/* image after projects*/
 
-/* Section: Image after projects*/
 .site-section-img {
     padding-top: 70px;
  }
@@ -598,19 +576,7 @@ html, body {
     background-color: rgba(0,0,0,0.7);
 }
 
-
-
-/* Section: Form*/
-.section-form {
-    padding-bottom: 120px;
-}
-
-.section-form .btn {
-    margin-top: 40px;
-}
-
-
-/* Section: projects */
+/* projects */
 
 .section-portfolio-proj {
     padding-bottom: 120px;
@@ -700,19 +666,17 @@ html, body {
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* baking */
 .slideshow-container {
   max-width: 800px;
   position: center;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -727,19 +691,16 @@ html, body {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   margin-right: 405px;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: white;
 }
 
-/* Caption text */
 .text {
   color: white;
   font-size: 20px;
@@ -755,7 +716,6 @@ html, body {
     margin-left: 330px;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 15px;
@@ -765,7 +725,6 @@ html, body {
   position: absolute;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -781,7 +740,6 @@ html, body {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1000s;
@@ -799,60 +757,7 @@ html, body {
     text-transform: uppercase;
 }
 
-/* FOOTER
-================================================== */
-.site-footer {
-    position: fixed;
-    bottom: 0;
-    padding: 30px 0;
-    width: 100%;
-    background-color: #212121;
-    z-index: -1;
-}
-
-.icon {
-    line-height: 40px;
-    padding: 9px 11px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 50%;
-}
-
-.icon + .icon {
-    margin-left: 5px;
-}
-
-.icon i:before {
-    margin:0;
-}
-
-.icon:hover {
-    background-color: #fff;
-}
-
-.site-footer a {
-    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-}
-
-a.twitter-bg:hover {color: #55acee;}
-a.facebook-bg:hover{color: #3b5998;}
-a.gplus-bg:hover{color: #007bb5;} 
-a.linkedin-bg:hover {color: #dd4b39;}
-a.icon-up-bg:hover {color: #212121;}
-
-.copyright {
-    margin-bottom: 0;
-    line-height: 40px;
-    color: #fff;
-    text-align: center;
-}
-
-/* Section: certifications */
-
+/* certifications */
 .section-portfolio-cert {
     padding-bottom: 120px;
 }
