@@ -191,6 +191,7 @@ html, body {
     padding: 5px 0;
     font-weight: 600;
     color: #3b6191;
+    background-color: transparent;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     transition: border-color 0.25s ease-in-out;
@@ -283,7 +284,7 @@ html, body {
 } 
 
 .hero img {
-    height: 600px;
+    height: 500px;
 }
 
 /* SITEMAIN
@@ -297,14 +298,14 @@ html, body {
 }
 /* site-section */
 .site-section {
-   padding-top: 120px;
+   padding-top: 70px;
 }
 
 .site-section h2,
 .site-section h3 {
     font-size: 36px;
     color: white;
-    margin: 0;
+    margin-top: -30px;
     text-transform: uppercase;
 }
 
@@ -331,17 +332,6 @@ html, body {
     margin: 0 0 15px;
 }
 
-.progress {
-    height: 15px;
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: white;
-    box-shadow: none;
-}
-
-.progress-bar {
-    background-color:#3b6191;  
-}
 
 /* Section: Services */
 .section-services {
@@ -351,7 +341,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/boilermake.png) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -390,6 +380,19 @@ html, body {
     margin-bottom: 0;
 }
 
+.progress {
+    height: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: white;
+    box-shadow: none;
+}
+
+.progress-bar {
+    background-color:#3b6191;  
+}
+
+
 /* Section: Portfolio */
 .section-portfolio {
     padding-bottom: 120px;
@@ -426,7 +429,7 @@ html, body {
 
 .portfolio-item-info {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 0px;
     z-index: 999;
     opacity: 0;
@@ -443,10 +446,19 @@ html, body {
 }
 
 .portfolio-item-info h4 {
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     font-weight: 700;
     color: #fff;
 }
+
+.portfolio-item-info h5 {
+    margin: 0 0 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+
 
 .portfolio-item-info a {
     padding: 6px 7px 4px;
@@ -470,7 +482,7 @@ html, body {
     margin-top: 10px;
 }
 
-/* Modal */
+/* Experience and Project Cards */
 .modal {
     z-index: 9999;
 }
@@ -513,6 +525,7 @@ html, body {
     color: black;
 }
 
+
 .modal-body p {
     color: black;
 }
@@ -552,6 +565,31 @@ html, body {
     line-height: 0.8;
 }
 
+
+/* Section: Image after projects*/
+.site-section-img {
+    padding-top: 70px;
+ }
+
+.section-counters-img {
+    background: url(../img/sanjheeheader.png) no-repeat fixed center / cover;
+    width: 100%;
+    padding: 175px 0;
+    position: relative;
+}
+
+.section-counters-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+
 /* Section: Form*/
 .section-form {
     padding-bottom: 120px;
@@ -562,22 +600,196 @@ html, body {
 }
 
 
-/* Section: Portfolio */
-.section-portfolio-exp {
+/* Section: projects */
+
+.section-portfolio-proj {
     padding-bottom: 120px;
-    background: url(../img/site-main-bg.png); 
 }
 
-.section-portfolio-exp .col-md-4:nth-last-child(-n+3) .portfolio-item {
+.portfolio-item-proj {
+    height: 280px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section-portfolio-proj .col-md-4:nth-last-child(-n+3) .portfolio-item {
     margin-bottom: 0;
 }
 
+.portfolio-item-proj:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color 0.25s ease-in-out;
+    -moz-transition: background-color 0.25s ease-in-out;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    -o-transition: background-color 0.25s ease-in-out;
+    -ms-transition: background-color 0.25s ease-in-out;
+}
 
-.section-portfolio-exp .btn {
+.portfolio-item-proj:hover:before{
+    background-color: rgba(33,33,33,0.6);
+}
+
+.portfolio-item-info-proj {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
+}
+
+.portfolio-item-proj:hover .portfolio-item-info-proj {
+    left: 50px;
+    opacity: 1;
+}
+
+.portfolio-item-info-proj h4 {
+    margin: 0 0 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.portfolio-item-info-proj h5 {
+    margin: 0 0 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.portfolio-item-info-proj a {
+    padding: 6px 7px 4px;
+    font-size: 12px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.portfolio-item-info-proj a:hover {
+    color: #212121;
+    background-color: #fff;
+}
+
+.section-portfolio-proj .btn {
     margin-top: 10px;
 }
 
+* {box-sizing:border-box}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: center;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: -250px;
+  margin-left:-50px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  margin-right: 405px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: white;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.slideshow-container h3 {
+    right: 0;
+    margin-left: 330px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200px;;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1000s;
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+.slideshow-container h3 {
+    font-size: 36px;
+    color: white;
+    position: center;
+    text-transform: uppercase;
+}
 
 /* FOOTER
 ================================================== */
