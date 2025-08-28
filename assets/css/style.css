@@ -199,13 +199,24 @@ html, body {
 .navbar-nav > li.active > a,
 .nav > li > a:hover,
 .nav > li.active > a {
-    background-color: transparent;
+    background-color: transparent !important;
     border-bottom: 2px solid #492946;
     color: #492946;
 }
 
 .nav > li > a:focus {
     background-color: transparent;
+}
+
+/* Override any Bootstrap active states to prevent background highlights */
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:focus,
+.navbar-nav > li.active > a:hover,
+.nav > li.active > a,
+.nav > li.active > a:focus,
+.nav > li.active > a:hover {
+    background-color: transparent !important;
+    background-image: none !important;
 }
 
 /* landing page */
