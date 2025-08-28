@@ -21,8 +21,8 @@ $(function() {
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
-        target: '.site-header',
-        offset: 10
+        target: '#primary-navigation',
+        offset: 50
     });
 
 	/* Progress bar */
