@@ -19,11 +19,11 @@ $(function() {
         event.preventDefault();
     });
 
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '#primary-navigation',
-        offset: 50
-    });
+    // Highlight the top nav as scrolling occurs - DISABLED
+    // $('body').scrollspy({
+    //     target: '#primary-navigation',
+    //     offset: 50
+    // });
 
 	/* Progress bar */
     var $section = $('.section-skills');
